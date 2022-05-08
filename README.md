@@ -31,7 +31,7 @@ This file contains Question 1 code to run it in command line by typing the comma
  
 
 **Assignment3_Q2.ipynb** :\
-This notebook can be uploaded in kaggle or google colab and the cells can be run one after another as in the order to train using sweep parameters and generate the plots and find the test accuracy also.\
+This notebook can be uploaded in kaggle or google colab and the cells can be run one after another as in the order to train using sweep parameters and generate the plots.\
 train_path = "./dakshina_dataset_v1.0/hi/lexicons/hi.translit.sampled.train.tsv"\
 val_path =   "./dakshina_dataset_v1.0/hi/lexicons/hi.translit.sampled.dev.tsv"\
 test_path = "./dakshina_dataset_v1.0/hi/lexicons/hi.translit.sampled.test.tsv" is path set for kaggle.\
@@ -72,7 +72,7 @@ This folder contains predictions_vanilla.csv which contains corresponding englis
 # Files
 
 **predictions_attention.csv** :
-This file contains corresponding english, predicted hindi and ground truth hindi for all test data without attention
+This file contains corresponding english, predicted hindi and ground truth hindi for all test data with attention
 
 
 ## Report
